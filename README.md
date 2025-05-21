@@ -22,7 +22,7 @@ Designed for red teamers, bug bounty hunters, and curious minds.
 
 1. **Clone the repo**
 ```bash
-git clone https://github.com/yourname/admin-finder.git
-cd admin-finder
+git clone https://github.com/IanNarito/AdminFinder
+cd AdminFinder
 pip install -r requirements.txt
 python3 main.py --url https://example.com
