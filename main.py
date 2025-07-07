@@ -47,7 +47,7 @@ def scan_admin_panels(target_url, wordlist_path):
                 if status in [200, 301, 302]:
                     print(f"{Fore.GREEN}[FOUND] {full_url} - Status: {status}")
                 else:
-                    print(f"{Fore.RED}[MISS ] {full_url} - Status: {status}")
+                    print(f"{Fore.RED}[MISS] {full_url} - Status: {status}")
 
                 time.sleep(0.1)
 
