@@ -56,7 +56,7 @@ def scan_admin_panels(target_url, wordlist_path):
                 continue
 
     except KeyboardInterrupt:
-        print(f"\n\n{Fore.YELLOW}[!] Scan interrupted by user. Exiting gracefully. Byeee 👋")
+        print(f"\n\n{Fore.YELLOW}[!] Scan interrupted by user.")
         exit(0)
 
 if __name__ == "__main__":
@@ -69,3 +69,4 @@ if __name__ == "__main__":
 
     print_banner()
     scan_admin_panels(args.url, wordlist_path)
+
